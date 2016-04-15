@@ -14,14 +14,15 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
-		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
 		3A3478AA1154BF8E00D51880 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3478A91154BF8E00D51880 /* TestViewController.xib */; };
-		3A3478AF1154BFD700D51880 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3478AE1154BFD700D51880 /* TestViewController.m */; };
 		3A3479221154DB0800D51880 /* systest.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A3479211154DB0800D51880 /* systest.c */; };
 		3A3479871154EC4E00D51880 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3479861154EC4E00D51880 /* AudioToolbox.framework */; };
 		3ABE0507147CA00B00A57A62 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABE0506147CA00B00A57A62 /* CFNetwork.framework */; };
 		414CE4D1B8CC4583856E0C50 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72307DC289BB4773B2E873E9 /* libPods.a */; };
+		543D8D641CC15B260030E81E /* XCPjsua.m in Sources */ = {isa = PBXBuildFile; fileRef = 543D8D631CC15B260030E81E /* XCPjsua.m */; };
+		543D8D691CC15B4B0030E81E /* CallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 543D8D661CC15B4B0030E81E /* CallViewController.m */; };
+		543D8D6A1CC15B4B0030E81E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 543D8D681CC15B4B0030E81E /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,18 +35,20 @@
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AAE50D9B0CCF005BE974 /* ipjsystest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ipjsystest_Prefix.pch; sourceTree = "<group>"; };
 		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A3478A91154BF8E00D51880 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
-		3A3478AD1154BFD700D51880 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		3A3478AE1154BFD700D51880 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		3A3479211154DB0800D51880 /* systest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = systest.c; path = ../pjsystest/systest.c; sourceTree = SOURCE_ROOT; };
 		3A3479721154EB5B00D51880 /* gui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gui.h; path = ../pjsystest/gui.h; sourceTree = SOURCE_ROOT; };
 		3A3479731154EB6B00D51880 /* systest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = systest.h; path = ../pjsystest/systest.h; sourceTree = SOURCE_ROOT; };
 		3A3479861154EC4E00D51880 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3ABE0506147CA00B00A57A62 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		543D8D621CC15B260030E81E /* XCPjsua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPjsua.h; sourceTree = "<group>"; };
+		543D8D631CC15B260030E81E /* XCPjsua.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPjsua.m; sourceTree = "<group>"; };
+		543D8D651CC15B4B0030E81E /* CallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallViewController.h; sourceTree = "<group>"; };
+		543D8D661CC15B4B0030E81E /* CallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallViewController.m; sourceTree = "<group>"; };
+		543D8D671CC15B4B0030E81E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		543D8D681CC15B4B0030E81E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		663B6096E3810166E26EB8F5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		72307DC289BB4773B2E873E9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1107310486CEB800E47090 /* ipjsystest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ipjsystest-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -72,10 +75,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3A3478AD1154BFD700D51880 /* TestViewController.h */,
-				3A3478AE1154BFD700D51880 /* TestViewController.m */,
-				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
-				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				543D8D651CC15B4B0030E81E /* CallViewController.h */,
+				543D8D661CC15B4B0030E81E /* CallViewController.m */,
+				543D8D671CC15B4B0030E81E /* ViewController.h */,
+				543D8D681CC15B4B0030E81E /* ViewController.m */,
+				543D8D621CC15B260030E81E /* XCPjsua.h */,
+				543D8D631CC15B260030E81E /* XCPjsua.m */,
 				1D3623240D0F684500981E51 /* ipjsystestAppDelegate.h */,
 				1D3623250D0F684500981E51 /* ipjsystestAppDelegate.m */,
 			);
@@ -169,6 +174,7 @@
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 				4DB42386CE0D42EAA083550F /* Copy Pods Resources */,
+				F9E6D3AABD1B8B8C85FAA9A4 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +258,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		F9E6D3AABD1B8B8C85FAA9A4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,8 +282,9 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* ipjsystestAppDelegate.m in Sources */,
-				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
-				3A3478AF1154BFD700D51880 /* TestViewController.m in Sources */,
+				543D8D6A1CC15B4B0030E81E /* ViewController.m in Sources */,
+				543D8D641CC15B260030E81E /* XCPjsua.m in Sources */,
+				543D8D691CC15B4B0030E81E /* CallViewController.m in Sources */,
 				3A3479221154DB0800D51880 /* systest.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +296,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 663B6096E3810166E26EB8F5 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ipjsystest_Prefix.pch;
 				INFOPLIST_FILE = "ipjsystest-Info.plist";
@@ -286,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AE5224A420909C6BF5008C52 /* Pods.release.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ipjsystest_Prefix.pch;
 				INFOPLIST_FILE = "ipjsystest-Info.plist";

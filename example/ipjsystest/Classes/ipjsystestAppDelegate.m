@@ -17,7 +17,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA 
  */
 #import "ipjsystestAppDelegate.h"
-#import "RootViewController.h"
+#import "ViewController.h"
 
 
 @implementation ipjsystestAppDelegate
@@ -31,7 +31,9 @@
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
     
     // Override point for customization after app launch
-    [window addSubview:[navigationController view]];
+    ViewController *viewCon = [[ViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewCon];
+    [window setRootViewController:navController];
     [window makeKeyAndVisible];
 }
 

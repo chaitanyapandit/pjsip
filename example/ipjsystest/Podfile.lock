@@ -17,7 +17,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/chebur/pjsip.git
 
 SPEC CHECKSUMS:
-  OpenSSL-Universal: 60ee5ddf6530100c0aa702c2e0c9881cfd4a89a5
-  pjsip: c969e2ccb0432bf3fbd2c4c3504524b65b806c53
+  OpenSSL-Universal: 5b864c8eb334c8e78f44e4b2eb294ee2c1891c23
+  pjsip: f883cdad46ae0a224a465d1031e36842df69e100
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.39.0
